@@ -1,0 +1,37 @@
+body {
+  /* background-color: #13235f !important ; */
+  color: #ffffff;
+}
+
+.content {
+  /* border: 1px solid #fff; */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+}
+.content h1 {
+  font-family: "Heavitas";
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 40px;
+  line-height: 40px;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.content p {
+  font-family: "Inter";
+  font-style: normal;
+  /* font-weight: 400PX; */
+  font-size: 18px;
+  line-height: 16px;
+  margin-top: -15px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+}

@@ -1,0 +1,73 @@
+.subParentBox {
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  color: #000;
+}
+.subParentBox h4 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 29px;
+  text-align: center;
+  color: #20232f;
+}
+.otpText p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+
+  color: #555555;
+}
+.dashbox{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 45px;
+    margin-top: 50px;
+}
+.dash{
+    width: 30px;
+    height: 2px;
+    background-color: #BBBBBB;
+    ;
+}
+.resend a {
+    text-decoration: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 20px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #3f85fd;
+}
+.nextbtnBox a {
+    text-decoration: none;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+  width: 71px;
+  height: 22px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #12235f;
+}

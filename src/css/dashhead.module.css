@@ -1,0 +1,41 @@
+.parentBox {
+    
+  border: 1px solid black;
+  width: 80%;
+  margin: 90px auto;
+  background-color: #13235f;
+  height: 500px;
+  color: white;
+  /* height: 300px; */
+  border-radius: 0px 0px 25px 25px;
+}
+.subParentBox {
+    position: relative;
+    display: flex;
+    gap: 100px;
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+    width: 70%;
+    margin: 12% auto;
+ 
+}
+.addName{
+    font-size: 30px;
+}
+.avata{
+    /*position: absolute;
+    */padding: 5px 30px;
+    height: 250px;
+    width: 200px;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    margin-top: -60px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.name{
+    line-height: 3px;
+    text-align:left;
+}

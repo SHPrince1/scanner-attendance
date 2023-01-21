@@ -1,0 +1,46 @@
+.parentBox {
+  width: 280px;
+  height: 180px;
+  display: flex;
+  margin: 60px auto;
+  background: #ffffff;
+  border: 1px solid #f2f5fa;
+  border-radius: 10px;
+}
+.parentBox :hover{
+    cursor: pointer;
+    border: 2px solid #f2f5fa;
+}
+.subParentBox {
+  padding: 10px 20px;
+  margin: 40px auto;
+  text-align: center;
+}
+.subParentBox a {
+    text-decoration: none;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+
+.textBox {
+  /* border: 1px solid black; */
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+}

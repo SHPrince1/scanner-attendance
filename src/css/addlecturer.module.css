@@ -1,0 +1,78 @@
+h2, h1{
+    color: #000;
+    display: flex;
+    width: 20%;
+    margin: 20px auto;
+}
+.genInputBox{
+    /* border: 1px solid red; */
+    margin: 5rem auto;
+    width:40%;
+}
+.inputBox{
+    display: flex; 
+    flex-direction: column;
+    margin: 10px auto;
+    width: 50%;
+    gap: 10px;
+}
+.inputBox input{
+    width:350px;
+}
+
+.courseInfoBox{
+    /* border: 1px solid black; */
+    margin: 10px auto;
+    width: 100%;
+}
+.selectPlace{
+    
+    font-size:23px;
+    text-align: left;
+}
+.selectTitle{
+    width:50%;
+    margin: 0 auto;
+}
+.selectTitleBox{
+    width: 40%;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+}
+.proCodeBox{
+    width:18%;
+    display: flex;
+    margin: 20px auto;
+    gap: 10px;
+}
+.levSave{
+    display: flex;
+    width:20%;
+    display: flex;
+    margin: 20px auto;
+    gap: 10px;
+}
+.selLevel{
+    width: 55%;
+}
+.btnBox {
+    background-color: #13235f;
+    /* width: 100%; */
+    margin: -3px auto;
+    height: 23px;
+    padding: 10px 0px;
+    border-radius: 40px;
+    /* display: flex; */
+  }
+  
+  .btn {
+    /* background-color: blue; */
+    text-decoration: none;
+    color: #fff;
+    width: 28%;
+    margin: 3px auto;
+    height: 35px;
+    padding: 10px 0px;
+    border-radius: 40px;
+  }
+  

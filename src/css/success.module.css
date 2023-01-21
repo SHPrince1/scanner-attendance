@@ -1,0 +1,18 @@
+.parentBox {
+    border: 1px solid black;
+}
+.subParentBox h2 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+
+  color: #20232f;
+}

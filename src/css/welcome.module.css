@@ -1,0 +1,46 @@
+body {
+  background-color: #fff !important;
+  color: blue;
+}
+.parentBox {
+  border: 1px solid #fff;
+}
+.content {
+  position: fixed;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  /* width: 90%; */
+  width: 217px;
+}
+.content h1 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  font-size: 40px;
+  line-height: 40px;
+  align-items: left;
+  text-align: left;
+  font-style: normal;
+  color: #12235f;
+}
+.nextbtnBox a {
+    text-decoration: none;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+  width: 71px;
+  height: 22px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #12235f;
+}

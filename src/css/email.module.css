@@ -1,0 +1,41 @@
+.content {
+  /* border:1px solid black; */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+}
+input {
+  width: 300px;
+  height: 40px;
+  box-shadow: -8px -2px 5px -25px #707070;
+  padding: 5px 15px;
+  font-size: 20px;
+  text-transform: lowercase;
+}
+::placeholder {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.nextbtnBox a {
+  text-decoration: none;
+  position: fixed;
+  bottom: 30px;
+  right: 40px;
+  width: 71px;
+  height: 22px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #12235f;
+}
