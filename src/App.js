@@ -27,8 +27,8 @@ function App() {
     <div>
       {/* <OpenPage /> */}
       {/* <EmailPage /> */}
-      <OtpPage />
-      {/* <Success/> */}
+      {/* <OtpPage /> */}
+      <Success/>
       {/* <CreateStudent /> */}
       {/* <AddLecturer /> */}
       {/* <Dashboard /> */}
