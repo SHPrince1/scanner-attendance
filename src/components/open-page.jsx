@@ -6,7 +6,7 @@ const OpenPage = () => {
     <>
       <div className={style.parentBox}>
         <div className={style.content}>
-          <h1>SCANNER</h1>
+          <h1 className={style.contentH1}>SCANNER</h1>
           <p>Attendance System</p>
         </div>
       </div>

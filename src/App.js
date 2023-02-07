@@ -25,9 +25,13 @@ function App() {
     //   </Routes>
     // </Router>
     <div>
+      {/* <OpenPage /> */}
+      {/* <EmailPage /> */}
+      <OtpPage />
+      {/* <Success/> */}
+      {/* <CreateStudent /> */}
       {/* <AddLecturer /> */}
       {/* <Dashboard /> */}
-      {/* <EmailPage /> */}
     </div>
   );
 }

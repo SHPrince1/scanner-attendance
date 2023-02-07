@@ -2,22 +2,32 @@
   /* border:1px solid black; */
   position: fixed;
   top: 50%;
-  left: 50%;
+  left: 85%;
   transform: translate(-50%, -50%);
   width: 90%;
 }
 input {
-  width: 300px;
+  width: 330px;
   height: 40px;
-  box-shadow: -8px -2px 5px -25px #707070;
+ 
   padding: 5px 15px;
   font-size: 20px;
   text-transform: lowercase;
+
+   background: transparent;
+    border: none;
+    border-bottom: 3px solid #707070;
 }
 ::placeholder {
   font-size: 20px;
   text-transform: capitalize;
+
 }
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
 
 .nextbtnBox a {
   text-decoration: none;

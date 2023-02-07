@@ -3,18 +3,20 @@ import Select from "react-select";
 import style from "../css/create-student.module.css";
 
 const options = [
-  { value: "chocolate", label: "Chocolate" },
-  { value: "strawberry", label: "Strawberry" },
-  { value: "vanilla", label: "Vanilla" },
+  { value: "computer science", label: "Computer Science" },
+  // { value: "strawberry", label: "Strawberry" },
+  // { value: "vanilla", label: "Vanilla" },
 ];
 const leveloptions = [
-  { value: "hnd", label: "Hnd" },
-  { value: "ond", label: "Ond" },
-  { value: "vanilla", label: "Vanilla" },
+  { value: "hnd1", label: "Hnd1" },
+  { value: "hnd2", label: "Hnd2" },
+  { value: "ond1", label: "Ond1" },
+  { value: "ond2", label: "Ond2" },
+  
 ];
 const levels = [
-  { value: "level1", label: "Level1" },
-  { value: "level2", label: "Level2" },
+  { value: "ft", label: "FT" },
+  { value: "pt", label: "PT" },
   //   { value: "vanilla", label: "Vanilla" },
 ];
 

@@ -1,6 +1,6 @@
 .parentBox{
     height: 100vh;
-    margin-top: 40px;
+    margin-top: 230px;
     /* border: 1px solid black; */
 }
 .header {
@@ -15,6 +15,9 @@
 
   color: #222222;
   margin-bottom: 20px;
+}
+.header h1{
+  margin-left: 750px;
 }
 .inputBox {
   width: 19%;
@@ -42,15 +45,15 @@
 }
 .btnBox {
   background-color: #13235f;
-  width: 20%;
+  width: 2%;
   margin: 3px auto;
   height: 23px;
-  padding: 10px 0px;
+  padding: 10px 40px;
   border-radius: 40px;
 }
 
 .btn {
-  background-color: blue;
+  /* background-color: blue; */
   text-decoration: none;
   color: #fff;
   width: 100%;

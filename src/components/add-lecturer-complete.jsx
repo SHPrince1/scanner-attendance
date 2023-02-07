@@ -78,7 +78,7 @@ const AddLecturer = () => {
             
           </div>
         </div>
-        <div>
+        <div className={style.doneBox}>
             <a href="#">
                 Done
             </a>

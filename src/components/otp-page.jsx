@@ -1,5 +1,6 @@
 import React from "react";
 import style from "../css/otp.module.css";
+import Otp from "../components/otp";
 
 const OtpPage = () => {
   return (
@@ -12,13 +13,12 @@ const OtpPage = () => {
             <p>Enter the CODE that was sent to your chrissito55@gmail.com</p>
           </div>
           <div className={style.dashbox}>
-            <div className={style.dash}></div>
-            <div className={style.dash}></div>
-            <div className={style.dash}></div>
-            <div className={style.dash}></div>
+            <Otp />
           </div>
           <div className={style.resend}>
-            <a href="#">Resend</a>
+            <button className={style.resendBtn} type="submit">
+              Resend
+            </button>
           </div>
         </div>
         <div className={style.nextbtnBox}>
